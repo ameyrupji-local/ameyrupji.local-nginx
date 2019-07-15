@@ -1,4 +1,4 @@
-#ameyrupj.local-nginx-setup
+# ameyrupj.local-nginx-setup
 
 This repository outlines the steps to setup nginx on MacOS to act as a reverse proxy for various apps deployed on my local server.
 
@@ -9,6 +9,7 @@ This repository outlines the steps to setup nginx on MacOS to act as a reverse p
 ## System Configuration at time of test
 
 - macOS High Sierra - Version 10.13.6 
+- Sharing > Local Hostname set to `ameyrupji.local` ![macOS sharing](images/macos-sharing-ameyrupji.local.png)
 
 ## Installation instructions
 
