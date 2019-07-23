@@ -79,6 +79,8 @@ Save configuration and relaunch nginx
 Before the testing can begin lets setup Nginx to autostart on reboot. Use the following commands to enable this: `sudo cp /usr/local/opt/nginx/*.plist /Library/LaunchDaemons` and 
 `sudo launchctl load -w /Library/LaunchDaemons/homebrew.mxcl.nginx.plist`
 
+![terminal enable boot start](images/terminal-nginx-enable-boot-start.png)
+
 ## Test 
 
 Open Safari it by going to URL:
