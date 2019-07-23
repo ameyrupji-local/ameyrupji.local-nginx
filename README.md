@@ -74,6 +74,11 @@ http {
 Save configuration and relaunch nginx
 `sudo nginx`
 
+### Enable nginx auto start on reboot
+
+Before the testing can begin lets setup Nginx to autostart on reboot. Use the following commands to enable this: `sudo cp /usr/local/opt/nginx/*.plist /Library/LaunchDaemons` and 
+`sudo launchctl load -w /Library/LaunchDaemons/homebrew.mxcl.nginx.plist`
+
 ## Test 
 
 Open Safari it by going to URL:
@@ -104,3 +109,4 @@ Remove Nginx code by running the following commands:
 ## Useful Links
 
 - https://medium.com/@ThomasTan/installing-nginx-in-mac-os-x-maverick-with-homebrew-d8867b7e8a5a
+- https://derickbailey.com/2014/12/27/how-to-start-nginx-on-port-80-at-mac-osx-boot-up-log-in/
