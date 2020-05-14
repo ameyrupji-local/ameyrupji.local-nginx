@@ -112,3 +112,4 @@ Remove Nginx code by running the following commands:
 
 - https://medium.com/@ThomasTan/installing-nginx-in-mac-os-x-maverick-with-homebrew-d8867b7e8a5a
 - https://derickbailey.com/2014/12/27/how-to-start-nginx-on-port-80-at-mac-osx-boot-up-log-in/
+- https://github.com/jenkinsci/pipeline-examples
